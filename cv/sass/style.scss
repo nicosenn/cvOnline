@@ -1,0 +1,144 @@
+@import "reset";
+
+body {
+    line-height: 2;
+}
+
+.navbar-light .navbar-brand {
+	font-family: 'Cabin', sans-serif;
+    //color: #333;
+    font-size: 25px;
+	text-transform: uppercase;
+}
+
+.bg-light {
+    background-color: #ffffff!important;
+}
+
+a{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #333;
+}
+
+h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #FF6600;
+	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+a:hover{
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #FF6600;
+}
+
+.tel{
+	margin-top: 15%;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #333;
+}
+
+.tel:hover{
+	margin-top: 15%;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #FF6600;
+}
+
+p{
+	margin-top: 15%;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #FF6600;
+	text-align: center;
+}
+
+.ion-social-whatsapp{
+	font-size: 18px;
+	color: #4dc247 !important;
+}
+
+.redes{
+	li{
+	display: inline-block;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.5s;
+	border-radius: 5px;
+	margin: 17px 20px 0 0;
+		span {				
+			color: white;
+		}
+	}
+}
+
+.borde{
+	border-top: 1px solid #333;
+	margin: 40px 0 0 0;
+	color: #FF6600;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: none;
+    border-bottom: 1px solid rgba(5, 5, 5, 1);
+    border-radius: 0;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+input{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	margin: 25px 0;
+}
+
+textarea{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+strong{
+	font-size: 10px;
+	color: #FF6600;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF6600;
+    border-color: #FF6600;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+}
+
+li{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.card{
+	margin-top: 20px;
+}
