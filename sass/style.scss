@@ -6,7 +6,6 @@ body {
 
 .navbar-light .navbar-brand {
 	font-family: 'Cabin', sans-serif;
-    //color: #333;
     font-size: 25px;
 	text-transform: uppercase;
 }
@@ -27,6 +26,14 @@ h1{
 	font-size: 25px;
 	text-align: center;
 	margin-bottom: 20px;
+}
+
+h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;
 }
 
 a:hover{
@@ -52,6 +59,14 @@ p{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #FF6600;
 	text-align: center;
+}
+
+.intro{
+	margin-top: 0.1%;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #333;
+	font-size: 15.5px;
+	text-align: left;
 }
 
 .ion-social-whatsapp{
@@ -116,13 +131,107 @@ strong{
 	color: #FF6600;
 }
 
+.cra{
+	font-size: 17px;
+	color: #FF6600;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #FF6600;
     border-color: #FF6600;
 }
 
+.btn-primary:hover {
+    background-color: #333;
+}
+
 li{
 	text-transform: uppercase;
 	font-size: 12px;
+}
+
+.card{
+	margin-top: 30px;
+}
+
+.skill h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.skill .progress-bar {
+	background-color: #FF6600; 
+}
+
+.description{
+	margin-top: 0.1%;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #333;
+	font-size: 15px;
+	text-align: left;
+}
+
+.ion-social-javascript-outline{
+	color: #f7df1e;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.ion-social-angular-outline{
+	color: #db0030;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.ion-social-html5-outline{
+	color: #f0662b;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.ion-social-css3-outline{
+	color: #2aabde;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.ion-social-sass{
+	color: #cc6297;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.ion-social-android-outline{
+	color: #99cc00;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.fire, .boot{
+	width: 30px;
+	height: 30px;
 }
