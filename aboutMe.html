@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="tab icon" href="s.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -48,11 +49,11 @@
 		<h1>About Me</h1><hr>
 		<div class="container">
 			<div class="row justify-content-center">
-				<article class="col-sm-5">
+				<article class="col-md-5">
 					<img class="img-thumbnail foto" src="img/nicoSenn.png" alt="Responsive image">
 				</article>
 
-				<article class="col-sm-5">
+				<article class="col-md-5">
 					<p class="intro">Estudiante de Ingenieria en Informatica. USAL<br>
 					Co-Founder en <a href="http://cranium.com.ar/"><strong class="cra">cranium.com.ar</strong></a><br>
 					Actualmente desarrollo mi actividad como freelancer especializado en el desarrollo y diseño web con un perfil adicional de aplicaciones Android y estrategias de e-mail marketing. Me caracterizo por ser autodidacta, ademas de realizar cursos en mis tiempos libres. Soy una persona activa, enfatizado en el aprendizaje de nuevas tecnologias. Me gustan los desafios (creo en ellos, ya que nos demostramos a nosotros mismos, lo que somos capaces de crear). <br>
@@ -68,23 +69,23 @@
 		<div class="container">
 			<div>
 				<article>
-					<form>
+					<form action="send.php" method="post">
 						<div class="row justify-content-center">
 							<div class="form-group col-sm-5">
-								<input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required>
+								<input type="name" class="form-control" name="name" placeholder="Nombre"  required>
 							</div>
 							<div class="form-group col-sm-5">
-								<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" required>
+								<input type="email" class="form-control" name="email" placeholder="Email" required>
 							</div>
 						</div>
 						<div class="row justify-content-center">
 							<div class="form-group col-sm-10">
-								<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Asunto" required>
+								<input type="text" class="form-control" name="asunto" placeholder="Asunto" required>
 							</div>
 							<div class="form-group col-sm-10">
-								<textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Mensaje" required></textarea>
+								<textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
 							</div>
-							<button type="submit" class="col-3 btn btn-primary">Enviar</button>
+							<input class="col-3 btn btn-primary" type="submit" value="Enviar" id="boton">
 						</div>
 						
 					</form>
@@ -97,11 +98,11 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<article class="col-sm">
-					<p><a class="auto-generated-link" data-auto-recognition="true" data-content="nicolas.senn90@gail.com" href="nicolas.senn90@gmail.com" data-type="mail">nicolas.senn90@gmail.com</a></p>
+					<p><a href="aboutMe.html" data-type="mail">nicolas.senn90@gmail.com</a></p>
 				</article>
 
 				<article class="col-sm">
-					<p class="tel"><span class="ion-social-whatsapp"></span> Tel: +54 11-3419-7366 </p>
+					<p class="tel"><a href="#"><span class="ion-social-whatsapp"></span> Tel: +54 11-3419-7366</a></p>
 				</article>
 			</div>
 			<div class="row justify-content-center">
